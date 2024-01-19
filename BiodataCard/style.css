@@ -26,6 +26,7 @@
 .box2{
     width: 25%;
     height: 100%;
+    margin-right: 0;
 }
 .box3{
     width: 75%;
@@ -156,4 +157,10 @@
 
 .little-font{
     font-size: 14px;
+}
+
+
+.side-image{
+    height:130px;
+     width:90px; 
 }
