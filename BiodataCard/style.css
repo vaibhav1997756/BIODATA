@@ -21,8 +21,23 @@
     color: black;
     border-radius: 10px;
     margin-right: 10px;
+}
+
+.box2{
+    width: 25%;
+    height: 100%;
+}
+.box3{
+    width: 75%;
+    height: 100%;
+}
 
 
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
 
 .fav-icon {
@@ -74,6 +89,7 @@
     float: right;
     padding: 2px;
     border-radius: 10px;
+    border-style: none;
 }
 
 .label-input {
@@ -98,6 +114,7 @@
     border-radius: 10px;
     background-color: rgb(79, 5, 5);
     color: white;
+    border-style:none ;
 
 }
 
@@ -130,4 +147,13 @@
     font-weight: 300;
     text-align: center;
     font-size: 13px;
+}
+
+
+.right2{
+    border-radius: 50%;
+}
+
+.little-font{
+    font-size: 14px;
 }
